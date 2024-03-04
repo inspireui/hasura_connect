@@ -11,9 +11,13 @@ environment:
   sdk: ">=2.16.0 <3.0.0"
 
 dependencies:
-  hasura_connect: ^4.0.0+3
-  http: ^0.13.4
-  uuid: ^3.0.6
+  hasura_connect:
+    git:
+      url: https://github.com/inspireui/hasura_connect.git
+      path: packages/hasura_connect
+      ref: 2d6cf778d24b4404d923ac574070d898881ea7b3
+  http: ^1.2.1
+  uuid: ^4.1.0
 
 # dependency_overrides: 
 #   hasura_connect: 
