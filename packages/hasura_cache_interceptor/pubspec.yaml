@@ -15,7 +15,7 @@ dependencies:
     git:
       url: https://github.com/inspireui/hasura_connect.git
       path: packages/hasura_connect
-      ref: 2d6cf778d24b4404d923ac574070d898881ea7b3
+      ref: 98577788016488ca00ec507f9762dd7df3ddc80f
   http: ^1.1.0
   uuid: ^4.1.0
 
